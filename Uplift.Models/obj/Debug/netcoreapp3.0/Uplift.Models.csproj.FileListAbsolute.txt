@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\bin\Debug\netcoreapp3.0\Uplift.Models.deps.json
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\bin\Debug\netcoreapp3.0\Uplift.Models.dll
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\obj\Debug\netcoreapp3.0\Uplift.Models.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\obj\Debug\netcoreapp3.0\Uplift.Models.AssemblyInfo.cs
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\bin\Debug\netcoreapp3.0\Uplift.Models.pdb
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\obj\Debug\netcoreapp3.0\Uplift.Models.dll
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\obj\Debug\netcoreapp3.0\Uplift.Models.pdb
+C:\Users\Admin\source\repos\UpLift\Uplift.Models\obj\Debug\netcoreapp3.0\Uplift.Models.csprojAssemblyReference.cache
