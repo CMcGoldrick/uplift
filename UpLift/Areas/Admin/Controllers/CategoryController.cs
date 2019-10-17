@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Uplift.DataAccess.Data.Repository.IRepository;
+using Uplift.Models;
 
 namespace UpLift.Areas.Admin.Controllers
 {
@@ -20,6 +21,49 @@ namespace UpLift.Areas.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+
+            if (id == null)
+            {
+                return View(category);
+            }
+
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+
+            if(category == null)
+            {
+                return NotFound();
+            }
+
+            return View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            // this checks if request passes server side validations
+            if (ModelState.IsValid)
+            {
+                if (category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+
+                return RedirectToAction("Index");
+                // this way avoids spelling mistakes
+                // return RedirectToAction(nameof(Index));                
+            }
+            return View(category);
         }
 
         #region API Calls

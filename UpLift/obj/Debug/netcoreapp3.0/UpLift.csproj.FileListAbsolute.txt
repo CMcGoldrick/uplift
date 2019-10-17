@@ -432,3 +432,6 @@ C:\Users\Admin\source\repos\UpLift\UpLift\bin\Debug\netcoreapp3.0\Uplift.DataAcc
 C:\Users\Admin\source\repos\UpLift\UpLift\bin\Debug\netcoreapp3.0\Uplift.Models.pdb
 C:\Users\Admin\source\repos\UpLift\UpLift\bin\Debug\netcoreapp3.0\Uplift.Utility.pdb
 C:\Users\Admin\source\repos\UpLift\UpLift\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\Admin\source\repos\UpLift\UpLift\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
+C:\Users\Admin\source\repos\UpLift\UpLift\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+C:\Users\Admin\source\repos\UpLift\UpLift\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
